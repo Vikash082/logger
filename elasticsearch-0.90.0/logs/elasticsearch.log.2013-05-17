@@ -1,0 +1,136 @@
+[2013-05-17 05:37:17,703][DEBUG][action.admin.cluster.node.info] [Pressure] failed to execute on node [7nSb5N5AQyS-Sd_bIgsHzA]
+org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response of type [org.elasticsearch.action.admin.cluster.node.info.NodeInfo]
+Caused by: org.elasticsearch.transport.TransportSerializationException: Failed to deserialize response of type [org.elasticsearch.action.admin.cluster.node.info.NodeInfo]
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleResponse(MessageChannelHandler.java:150)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.messageReceived(MessageChannelHandler.java:127)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 129
+	at org.elasticsearch.common.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+	at org.elasticsearch.transport.netty.ChannelBufferStreamInput.readByte(ChannelBufferStreamInput.java:132)
+	at org.elasticsearch.common.io.stream.AdapterStreamInput.readByte(AdapterStreamInput.java:35)
+	at org.elasticsearch.common.io.stream.StreamInput.readBoolean(StreamInput.java:252)
+	at org.elasticsearch.action.admin.cluster.node.info.NodeInfo.readFrom(NodeInfo.java:231)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleResponse(MessageChannelHandler.java:148)
+	... 23 more
+[2013-05-17 05:37:24,637][DEBUG][action.admin.cluster.node.info] [Pressure] failed to execute on node [7nSb5N5AQyS-Sd_bIgsHzA]
+org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response of type [org.elasticsearch.action.admin.cluster.node.info.NodeInfo]
+Caused by: org.elasticsearch.transport.TransportSerializationException: Failed to deserialize response of type [org.elasticsearch.action.admin.cluster.node.info.NodeInfo]
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleResponse(MessageChannelHandler.java:150)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.messageReceived(MessageChannelHandler.java:127)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 129
+	at org.elasticsearch.common.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+	at org.elasticsearch.transport.netty.ChannelBufferStreamInput.readByte(ChannelBufferStreamInput.java:132)
+	at org.elasticsearch.common.io.stream.AdapterStreamInput.readByte(AdapterStreamInput.java:35)
+	at org.elasticsearch.common.io.stream.StreamInput.readBoolean(StreamInput.java:252)
+	at org.elasticsearch.action.admin.cluster.node.info.NodeInfo.readFrom(NodeInfo.java:231)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleResponse(MessageChannelHandler.java:148)
+	... 23 more
+[2013-05-17 05:37:25,755][INFO ][cluster.metadata         ] [Pressure] [tags_v2] creating index, cause [api], shards [1]/[0], mappings []
+[2013-05-17 05:37:25,849][INFO ][cluster.metadata         ] [Pressure] [tags_v2] create_mapping [tag]
+[2013-05-17 05:37:25,910][INFO ][cluster.metadata         ] [Pressure] [sequence] creating index, cause [api], shards [1]/[0], mappings []
+[2013-05-17 05:37:25,973][INFO ][cluster.metadata         ] [Pressure] [sequence] create_mapping [sequence]
+[2013-05-17 05:37:26,045][INFO ][cluster.metadata         ] [Pressure] [files_v3] creating index, cause [api], shards [2]/[0], mappings []
+[2013-05-17 05:37:26,205][INFO ][cluster.metadata         ] [Pressure] [files_v3] create_mapping [file]
+[2013-05-17 05:37:26,293][INFO ][cluster.metadata         ] [Pressure] [stats] creating index, cause [api], shards [1]/[0], mappings []
+[2013-05-17 05:37:26,382][INFO ][cluster.metadata         ] [Pressure] [stats] create_mapping [stat]
+[2013-05-17 05:37:26,458][INFO ][cluster.metadata         ] [Pressure] [dstats_v1] creating index, cause [api], shards [2]/[0], mappings []
+[2013-05-17 05:37:26,664][INFO ][cluster.metadata         ] [Pressure] [dstats_v1] create_mapping [dstat]
+[2013-05-17 05:37:26,830][INFO ][cluster.metadata         ] [Pressure] [users_v2] creating index, cause [api], shards [1]/[0], mappings []
+[2013-05-17 05:37:26,971][INFO ][cluster.metadata         ] [Pressure] [users_v2] create_mapping [user]
+[2013-05-17 05:37:27,995][INFO ][cluster.metadata         ] [Pressure] [dstats_v1] update_mapping [version] (dynamic)
+[2013-05-17 05:41:12,237][INFO ][cluster.metadata         ] [Pressure] [sessions-130516] creating index, cause [auto(bulk api)], shards [1]/[0], mappings [session]
+[2013-05-17 05:45:00,322][INFO ][cluster.metadata         ] [Pressure] [sessions-130517] creating index, cause [auto(bulk api)], shards [1]/[0], mappings [session]
+[2013-05-17 06:17:02,055][INFO ][cluster.metadata         ] [Pressure] [logstash-2013.05.17] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-05-17 06:17:02,750][INFO ][cluster.metadata         ] [Pressure] [logstash-2013.05.17] update_mapping [syslog] (dynamic)
+[2013-05-17 10:24:34,651][INFO ][node                     ] [Pressure] {0.90.0}[4377]: stopping ...
+[2013-05-17 10:24:34,974][INFO ][node                     ] [Pressure] {0.90.0}[4377]: stopped
+[2013-05-17 10:24:34,975][INFO ][node                     ] [Pressure] {0.90.0}[4377]: closing ...
+[2013-05-17 10:24:35,027][INFO ][node                     ] [Pressure] {0.90.0}[4377]: closed
+[2013-05-17 14:53:09,898][INFO ][node                     ] [Sushi] {0.90.0}[11510]: initializing ...
+[2013-05-17 14:53:09,909][INFO ][plugins                  ] [Sushi] loaded [], sites []
+[2013-05-17 14:53:13,560][INFO ][node                     ] [Sushi] {0.90.0}[11510]: initialized
+[2013-05-17 14:53:13,561][INFO ][node                     ] [Sushi] {0.90.0}[11510]: starting ...
+[2013-05-17 14:53:13,681][INFO ][transport                ] [Sushi] bound_address {inet[/192.168.100.221:9300]}, publish_address {inet[/192.168.100.221:9300]}
+[2013-05-17 14:53:16,717][INFO ][cluster.service          ] [Sushi] new_master [Sushi][fB5nlJ7mRxydKk3WqgPdVg][inet[/192.168.100.221:9300]], reason: zen-disco-join (elected_as_master)
+[2013-05-17 14:53:16,734][INFO ][discovery                ] [Sushi] elasticsearch/fB5nlJ7mRxydKk3WqgPdVg
+[2013-05-17 14:53:16,827][INFO ][http                     ] [Sushi] bound_address {inet[/192.168.100.221:9200]}, publish_address {inet[/192.168.100.221:9200]}
+[2013-05-17 14:53:16,827][INFO ][node                     ] [Sushi] {0.90.0}[11510]: started
+[2013-05-17 14:53:18,715][INFO ][gateway                  ] [Sushi] recovered [10] indices into cluster_state
+[2013-05-17 15:01:18,934][INFO ][cluster.service          ] [Sushi] added {[Quagmire][PDucNmkORKeir1GTwKdYHQ][inet[/192.168.100.221:9301]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[Quagmire][PDucNmkORKeir1GTwKdYHQ][inet[/192.168.100.221:9301]]{client=true, data=false}])
+[2013-05-17 16:02:44,940][INFO ][cluster.metadata         ] [Sushi] [kibana-int] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-05-17 16:02:45,232][INFO ][cluster.metadata         ] [Sushi] [kibana-int] update_mapping [temp] (dynamic)
+[2013-05-17 16:18:56,096][INFO ][node                     ] [Sushi] {0.90.0}[11510]: stopping ...
+[2013-05-17 16:18:56,255][INFO ][node                     ] [Sushi] {0.90.0}[11510]: stopped
+[2013-05-17 16:18:56,255][INFO ][node                     ] [Sushi] {0.90.0}[11510]: closing ...
+[2013-05-17 16:18:56,286][INFO ][node                     ] [Sushi] {0.90.0}[11510]: closed
+[2013-05-17 19:37:36,956][INFO ][node                     ] [Dorma] {0.90.0}[18842]: initializing ...
+[2013-05-17 19:37:36,964][INFO ][plugins                  ] [Dorma] loaded [], sites []
+[2013-05-17 19:37:44,158][INFO ][node                     ] [Dorma] {0.90.0}[18842]: initialized
+[2013-05-17 19:37:44,170][INFO ][node                     ] [Dorma] {0.90.0}[18842]: starting ...
+[2013-05-17 19:37:44,636][INFO ][transport                ] [Dorma] bound_address {inet[/192.168.100.221:9300]}, publish_address {inet[/192.168.100.221:9300]}
+[2013-05-17 19:37:47,744][INFO ][cluster.service          ] [Dorma] new_master [Dorma][mRAsRst-R8OFNx9YTSQ2Hg][inet[/192.168.100.221:9300]], reason: zen-disco-join (elected_as_master)
+[2013-05-17 19:37:47,807][INFO ][discovery                ] [Dorma] elasticsearch/mRAsRst-R8OFNx9YTSQ2Hg
+[2013-05-17 19:37:48,055][INFO ][http                     ] [Dorma] bound_address {inet[/192.168.100.221:9200]}, publish_address {inet[/192.168.100.221:9200]}
+[2013-05-17 19:37:48,056][INFO ][node                     ] [Dorma] {0.90.0}[18842]: started
+[2013-05-17 19:37:54,268][INFO ][gateway                  ] [Dorma] recovered [11] indices into cluster_state
+[2013-05-17 19:37:54,448][INFO ][cluster.service          ] [Dorma] added {[Quagmire][PDucNmkORKeir1GTwKdYHQ][inet[/192.168.100.221:9301]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[Quagmire][PDucNmkORKeir1GTwKdYHQ][inet[/192.168.100.221:9301]]{client=true, data=false}])
+[2013-05-17 19:38:40,638][INFO ][cluster.service          ] [Dorma] added {[Marko, Cain][Y-UeVxr_R-Giovjzx95tDg][inet[/192.168.100.221:9302]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[Marko, Cain][Y-UeVxr_R-Giovjzx95tDg][inet[/192.168.100.221:9302]]{client=true, data=false}])
+[2013-05-17 19:42:04,737][INFO ][node                     ] [Dorma] {0.90.0}[18842]: stopping ...
+[2013-05-17 19:42:04,845][INFO ][node                     ] [Dorma] {0.90.0}[18842]: stopped
+[2013-05-17 19:42:04,846][INFO ][node                     ] [Dorma] {0.90.0}[18842]: closing ...
+[2013-05-17 19:42:04,862][INFO ][node                     ] [Dorma] {0.90.0}[18842]: closed
+[2013-05-17 19:42:15,044][INFO ][node                     ] [War V] {0.90.0}[19408]: initializing ...
+[2013-05-17 19:42:15,052][INFO ][plugins                  ] [War V] loaded [], sites []
+[2013-05-17 19:42:22,361][INFO ][node                     ] [War V] {0.90.0}[19408]: initialized
+[2013-05-17 19:42:22,361][INFO ][node                     ] [War V] {0.90.0}[19408]: starting ...
+[2013-05-17 19:42:22,816][INFO ][transport                ] [War V] bound_address {inet[/192.168.100.221:9300]}, publish_address {inet[/192.168.100.221:9300]}
+[2013-05-17 19:42:25,995][INFO ][cluster.service          ] [War V] new_master [War V][1knAps3_RLiNl9gHBAu3Iw][inet[/192.168.100.221:9300]], reason: zen-disco-join (elected_as_master)
+[2013-05-17 19:42:26,065][INFO ][discovery                ] [War V] elasticsearch/1knAps3_RLiNl9gHBAu3Iw
+[2013-05-17 19:42:26,250][INFO ][cluster.service          ] [War V] added {[Quagmire][PDucNmkORKeir1GTwKdYHQ][inet[/192.168.100.221:9301]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[Quagmire][PDucNmkORKeir1GTwKdYHQ][inet[/192.168.100.221:9301]]{client=true, data=false}])
+[2013-05-17 19:42:26,451][INFO ][http                     ] [War V] bound_address {inet[/192.168.100.221:9200]}, publish_address {inet[/192.168.100.221:9200]}
+[2013-05-17 19:42:26,462][INFO ][node                     ] [War V] {0.90.0}[19408]: started
+[2013-05-17 19:42:32,749][INFO ][gateway                  ] [War V] recovered [11] indices into cluster_state
+[2013-05-17 19:43:17,037][INFO ][cluster.service          ] [War V] added {[Jameson, John][_EElc9ofS3-Cra1OUmWeGg][inet[/192.168.100.221:9302]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[Jameson, John][_EElc9ofS3-Cra1OUmWeGg][inet[/192.168.100.221:9302]]{client=true, data=false}])

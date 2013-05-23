@@ -1,0 +1,9 @@
+syslog-ng (3.4.1) syslogng34; urgency=low
+
+  * New upstream version.
+
+ -- BalaBit Development Team <devel@balabit.hu>  Thu, 31 Jan 2013 08:00:13 +0100
+
+Local variables:
+mode: debian-changelog
+End:

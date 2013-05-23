@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: ivykis
+Version: 0.36.1
+Description: event handling library
+Cflags: -I${includedir}
+Libs: -L${libdir} -livykis
+Libs.private: -lrt 

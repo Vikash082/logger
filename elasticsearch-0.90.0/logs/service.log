@@ -1,0 +1,81 @@
+STATUS | wrapper  | 2013/05/16 17:09:05 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/16 17:09:05 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/16 17:09:05 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/16 17:09:05 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/16 17:09:05 | 
+STATUS | wrapper  | 2013/05/16 17:09:05 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/16 17:09:05 | WrapperManager: Initializing...
+STATUS | wrapper  | 2013/05/16 17:59:19 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/05/16 17:59:20 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/05/16 18:30:52 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/16 18:30:52 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/16 18:30:52 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/16 18:30:52 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/16 18:30:52 | 
+STATUS | wrapper  | 2013/05/16 18:30:52 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/16 18:30:53 | WrapperManager: Initializing...
+STATUS | wrapper  | 2013/05/16 18:34:35 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/05/16 18:34:36 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/05/16 18:39:32 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/16 18:39:32 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/16 18:39:32 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/16 18:39:32 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/16 18:39:32 | 
+STATUS | wrapper  | 2013/05/16 18:39:32 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/16 18:39:32 | WrapperManager: Initializing...
+STATUS | wrapper  | 2013/05/16 18:45:48 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/05/16 18:45:49 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/05/16 18:46:17 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/16 18:46:17 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/16 18:46:17 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/16 18:46:17 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/16 18:46:17 | 
+STATUS | wrapper  | 2013/05/16 18:46:17 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/16 18:46:18 | WrapperManager: Initializing...
+STATUS | wrapper  | 2013/05/16 18:49:37 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/05/16 18:49:38 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/05/17 19:37:35 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/17 19:37:35 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/17 19:37:35 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/17 19:37:35 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/17 19:37:35 | 
+STATUS | wrapper  | 2013/05/17 19:37:35 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/17 19:37:36 | WrapperManager: Initializing...
+STATUS | wrapper  | 2013/05/17 19:42:03 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/05/17 19:42:05 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/05/17 19:42:13 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/17 19:42:13 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/17 19:42:13 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/17 19:42:13 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/17 19:42:13 | 
+STATUS | wrapper  | 2013/05/17 19:42:13 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/17 19:42:14 | WrapperManager: Initializing...
+STATUS | wrapper  | 2013/05/21 10:20:05 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/05/21 10:20:06 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/05/21 10:20:26 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/21 10:20:26 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/21 10:20:26 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/21 10:20:26 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/21 10:20:26 | 
+STATUS | wrapper  | 2013/05/21 10:20:26 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/21 10:20:27 | WrapperManager: Initializing...
+STATUS | wrapper  | 2013/05/21 10:23:52 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/05/21 10:23:53 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/05/21 10:24:02 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/21 10:24:02 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/21 10:24:02 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/21 10:24:02 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/21 10:24:02 | 
+STATUS | wrapper  | 2013/05/21 10:24:02 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/21 10:24:02 | WrapperManager: Initializing...
+STATUS | wrapper  | 2013/05/21 10:28:40 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/05/21 10:28:41 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/05/21 10:29:16 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/21 10:29:16 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/21 10:29:16 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/21 10:29:16 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/21 10:29:16 | 
+STATUS | wrapper  | 2013/05/21 10:29:16 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/21 10:29:16 | WrapperManager: Initializing...
+STATUS | wrapper  | 2013/05/21 10:31:44 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/05/21 10:31:45 | <-- Wrapper Stopped
