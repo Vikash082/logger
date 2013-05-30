@@ -79,3 +79,40 @@ STATUS | wrapper  | 2013/05/21 10:29:16 | Launching a JVM...
 INFO   | jvm 1    | 2013/05/21 10:29:16 | WrapperManager: Initializing...
 STATUS | wrapper  | 2013/05/21 10:31:44 | TERM trapped.  Shutting down.
 STATUS | wrapper  | 2013/05/21 10:31:45 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/05/30 10:43:11 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/30 10:43:11 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/30 10:43:11 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/30 10:43:11 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/30 10:43:11 | 
+STATUS | wrapper  | 2013/05/30 10:43:12 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/30 10:43:13 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/05/30 10:43:18 | {0.90.0}: Startup Failed ...
+INFO   | jvm 1    | 2013/05/30 10:43:18 | - BindTransportException[Failed to bind to [9300-9400]]
+INFO   | jvm 1    | 2013/05/30 10:43:18 | 	ChannelException[Failed to bind to: /192.168.100.221:9400]
+INFO   | jvm 1    | 2013/05/30 10:43:18 | 		BindException[Cannot assign requested address]
+STATUS | wrapper  | 2013/05/30 10:43:20 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/05/30 10:47:26 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/30 10:47:26 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/30 10:47:26 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/30 10:47:26 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/30 10:47:26 | 
+STATUS | wrapper  | 2013/05/30 10:47:26 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/30 10:47:26 | WrapperManager: Initializing...
+STATUS | wrapper  | 2013/05/30 15:30:43 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/30 15:30:43 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/30 15:30:43 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/30 15:30:43 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/30 15:30:43 | 
+STATUS | wrapper  | 2013/05/30 15:30:43 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/30 15:30:43 | WrapperManager: Initializing...
+STATUS | wrapper  | 2013/05/30 15:32:15 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/05/30 15:32:16 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/05/30 15:33:33 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/05/30 15:33:33 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/30 15:33:33 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/30 15:33:33 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/30 15:33:33 | 
+STATUS | wrapper  | 2013/05/30 15:33:33 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/30 15:33:33 | WrapperManager: Initializing...
+STATUS | wrapper  | 2013/05/30 15:36:35 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/05/30 15:36:36 | <-- Wrapper Stopped

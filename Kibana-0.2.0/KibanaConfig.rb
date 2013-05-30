@@ -7,7 +7,7 @@ module KibanaConfig
   # Your elastic search server(s). This may be set as an array for round robin
   # load balancing
   # Elasticsearch = ["elasticsearch1:9200","elasticsearch2:9200"]
-  Elasticsearch = "192.168.100.221:9200"
+  Elasticsearch = "192.168.100.230:9200"
 
   #Set the Net::HTTP read/open timeouts for the connection to the ES backend
   ElasticsearchTimeout = 500
@@ -18,7 +18,7 @@ module KibanaConfig
   # The adress ip Kibana should listen on. Comment out or set to
   # 0.0.0.0 to listen on all interfaces.
 #  KibanaHost = '127.0.0.1'
-  KibanaHost = '192.168.100.221'
+  KibanaHost = '192.168.100.230'
 
   # The record type as defined in your logstash configuration.
   # Seperate multiple types with a comma, no spaces. Leave blank
