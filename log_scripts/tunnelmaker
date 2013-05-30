@@ -1,0 +1,53 @@
+#!/bin/bash
+## NAME: TunnelMaker
+## PURPOSE: Creates multi-hop SSH tunnels for forwarding data+connections
+## AUTHOR: Matt Reid
+## DATE: 2012-05-30
+## VERSION: 1.0.2-jf
+##sample: echo "ssh -v -L $localport:localhost:$remotehost1port $remotehost1 ssh -v -L $remotehost1port:localhost:$remotehost2port -N $remotehost2 ... repeat"
+
+echo "------------------->"
+echo "-->Tunnel-->Maker-->"
+echo "-->version: 1.0.2-jf"
+echo "-->themattreid.com"
+echo "------------------->" 
+
+## Get sequence value
+echo -n "How many hops are we making [#remote servers]: "
+read hops
+
+## Check user, set initial port, root user can set N<1024 port value
+user=`whoami`
+notice=' [>1024]' 
+if [ "$user" = "root" ]; then notice=''; fi 
+
+## Initialize some vars
+c=1                 #session value counter
+n=''                #session value for notice
+final=''            #end result string for tunnel command
+localport='2222'    #localhost port default
+destport='22'     #destination port default
+let hops=hops+1     #increment hops for iteration in loop
+
+## Build connection strings
+while [  $c -lt $hops ]; do
+    echo ""    
+    echo -n "Host[or IP] for hop#[$c]: "; read host
+    echo -n "Localhost port for $host$notice: "; read localport    
+    echo -n "Destination port for $host$notice: "; read destport    
+
+    if [ "$localport" = '' ]; then echo "no port selected. exiting." exit 1; fi
+    if [ "$destport" = '' ]; then echo "no port selected. exiting." exit 1; fi
+    if [ $c -gt 1 ]; then n="-N "; fi #added to suppress remote login
+
+    string="ssh -v -L $localport:localhost:$destport $n$host "
+    final="$final $string"
+    let c=c+1
+
+done
+
+echo ""
+echo "You can initiate your tunnels via command: \"$final\""
+echo "Shall I start the tunnel now? [y,N]: "; read choice
+if [ "$choice" = "Y" ] || [ "$choice" = "y" ]; then `$final`; else exit 0; fi
+
