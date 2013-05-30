@@ -1,9 +1,0 @@
-eventlog (0.2.12) ssb22; urgency=low
-
-  * New upstream version.
-
- -- BalaBit Development Team <devel@balabit.hu>  Wed, 19 Oct 2011 14:32:38 +0200
-
-Local variables:
-mode: debian-changelog
-End:
