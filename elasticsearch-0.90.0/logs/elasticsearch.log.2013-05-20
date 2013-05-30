@@ -1,2 +1,0 @@
-[2013-05-20 06:17:01,627][INFO ][cluster.metadata         ] [War V] [logstash-2013.05.20] creating index, cause [auto(index api)], shards [5]/[1], mappings []
-[2013-05-20 06:17:02,099][INFO ][cluster.metadata         ] [War V] [logstash-2013.05.20] update_mapping [syslog] (dynamic)
